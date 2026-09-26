@@ -20,76 +20,231 @@
         <a href="#">My Projects</a>
     </nav>
 
+
     <!-- Hero Section -->
     <section class="hero">
+
         <h1>SmartUI Hub</h1>
+
         <h2>Build Better Interfaces</h2>
-        <p>Explore reusable UI templates for modern web projects.</p>
+
+        <p>
+            Explore reusable UI templates for modern web projects.
+        </p>
+
         <button>Explore Templates</button>
+
     </section>
+
 
     <!-- Categories Section -->
     <section class="categories">
+
         <h2>Explore Categories</h2>
 
         <div class="category-container">
 
+            <!-- AI -->
             <div class="category-card">
                 <h3>AI & Chat</h3>
                 <p>Modern AI and chatbot interfaces.</p>
             </div>
 
+            <!-- Dashboards -->
             <div class="category-card">
                 <h3>Dashboards</h3>
                 <p>Clean dashboards for data and analytics.</p>
             </div>
 
+            <!-- E-Commerce -->
             <div class="category-card">
                 <h3>E-Commerce</h3>
                 <p>Product, cart and shopping interfaces.</p>
             </div>
 
+            <!-- Education -->
             <div class="category-card">
                 <h3>Education</h3>
                 <p>Learning and student-focused interfaces.</p>
             </div>
 
+            <!-- Film -->
+            <div class="category-card">
+                <h3>Film & Streaming</h3>
+                <p>Movie details and streaming interfaces.</p>
+            </div>
+
+            <!-- Sports -->
+            <div class="category-card">
+                <h3>Sports</h3>
+                <p>Live scores, matches and sports dashboards.</p>
+            </div>
+
         </div>
+
     </section>
+
+
+    <!-- Template Search -->
+    <section class="template-search">
+
+        <h2>Find Your Template</h2>
+
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="templateSearch"
+                placeholder="Search templates..."
+            >
+
+            <select id="categoryFilter">
+
+                <option value="all">
+                    All Categories
+                </option>
+
+                <option value="ai">
+                    AI & Chat
+                </option>
+
+                <option value="dashboard">
+                    Dashboards
+                </option>
+
+                <option value="ecommerce">
+                    E-Commerce
+                </option>
+
+                <option value="education">
+                    Education
+                </option>
+
+                <option value="film">
+                    Film & Streaming
+                </option>
+
+                <option value="sports">
+                    Sports
+                </option>
+
+            </select>
+
+        </div>
+
+    </section>
+
 
     <!-- Featured Templates -->
     <section class="templates">
+
         <h2>Featured Templates</h2>
 
         <div class="template-container">
 
-            <div class="template-card">
+
+            <!-- AI StudyMate Dashboard -->
+            <div class="template-card" data-category="education">
+
                 <h3>AI StudyMate Dashboard</h3>
-                <p>AI-powered student learning dashboard.</p>
-                <button>View Template</button>
+
+                <p>
+                    AI-powered student learning dashboard.
+                </p>
+
+                <button>
+                    View Template
+                </button>
+
             </div>
 
-            <div class="template-card">
+
+            <!-- AI Chat Interface -->
+            <div class="template-card" data-category="ai">
+
                 <h3>AI Chat Interface</h3>
-                <p>Modern conversational AI interface.</p>
-                <button>View Template</button>
+
+                <p>
+                    Modern conversational AI interface.
+                </p>
+
+                <button>
+                    View Template
+                </button>
+
             </div>
 
-            <div class="template-card">
+
+            <!-- Developer Portfolio -->
+            <div class="template-card" data-category="dashboard">
+
                 <h3>Developer Portfolio</h3>
-                <p>Professional portfolio for developers.</p>
-                <button>View Template</button>
+
+                <p>
+                    Professional portfolio for developers.
+                </p>
+
+                <button>
+                    View Template
+                </button>
+
             </div>
 
-            <div class="template-card">
+
+            <!-- E-Commerce Store -->
+            <div class="template-card" data-category="ecommerce">
+
                 <h3>E-Commerce Store</h3>
-                <p>Modern product and shopping interface.</p>
-                <button>View Template</button>
+
+                <p>
+                    Modern product and shopping interface.
+                </p>
+
+                <button>
+                    View Template
+                </button>
+
             </div>
+
+
+            <!-- Movie Streaming -->
+            <div class="template-card" data-category="film">
+
+                <h3>Movie Streaming</h3>
+
+                <p>
+                    Modern movie details and streaming interface.
+                </p>
+
+                <button>
+                    View Template
+                </button>
+
+            </div>
+
+
+            <!-- Sports Match Center -->
+            <div class="template-card" data-category="sports">
+
+                <h3>Sports Match Center</h3>
+
+                <p>
+                    Live scores, matches and sports information.
+                </p>
+
+                <button>
+                    View Template
+                </button>
+
+            </div>
+
 
         </div>
+
     </section>
 
+
+    <!-- JavaScript -->
     <script src="../js/app.js"></script>
 
 </body>
