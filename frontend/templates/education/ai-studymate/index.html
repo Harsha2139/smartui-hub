@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AI StudyMate Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         SIDEBAR
+         ========================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <span>AI</span>
+
+            StudyMate
+
+        </div>
+
+
+        <nav>
+
+            <a href="#" class="active">
+                🏠 Dashboard
+            </a>
+
+            <a href="#">
+                📚 My Courses
+            </a>
+
+            <a href="#">
+                📝 Assignments
+            </a>
+
+            <a href="#">
+                🤖 AI Assistant
+            </a>
+
+            <a href="#">
+                📊 Progress
+            </a>
+
+            <a href="#">
+                ⚙️ Settings
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <button id="themeButton">
+                🌙 Dark Mode
+            </button>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =========================
+         MAIN CONTENT
+         ========================= -->
+
+    <main class="main-content">
+
+
+        <!-- TOP BAR -->
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>
+                    Good Morning, Student 👋
+                </h1>
+
+                <p>
+                    Continue learning and achieve your goals.
+                </p>
+
+            </div>
+
+
+            <div class="profile">
+
+                <div class="notification">
+                    🔔
+                </div>
+
+                <div class="avatar">
+                    S
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- =========================
+             STATISTICS
+             ========================= -->
+
+        <section class="stats">
+
+
+            <!-- Courses -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    📚
+                </div>
+
+                <div>
+
+                    <p>
+                        Courses
+                    </p>
+
+                    <h2>
+                        6
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Completed -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    ✅
+                </div>
+
+                <div>
+
+                    <p>
+                        Completed
+                    </p>
+
+                    <h2>
+                        24
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Study Hours -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    ⏱️
+                </div>
+
+                <div>
+
+                    <p>
+                        Study Hours
+                    </p>
+
+                    <h2>
+                        42h
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Streak -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+                    🔥
+                </div>
+
+                <div>
+
+                    <p>
+                        Day Streak
+                    </p>
+
+                    <h2>
+                        12
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =========================
+             DASHBOARD GRID
+             ========================= -->
+
+        <section class="dashboard-grid">
+
+
+            <!-- =========================
+                 CONTINUE LEARNING
+                 ========================= -->
+
+            <div class="panel continue-learning">
+
+
+                <div class="panel-header">
+
+                    <h2>
+                        Continue Learning
+                    </h2>
+
+                    <a href="#">
+                        View All
+                    </a>
+
+                </div>
+
+
+
+                <!-- Course 1 -->
+
+                <div class="course">
+
+                    <div class="course-icon">
+                        💻
+                    </div>
+
+
+                    <div class="course-info">
+
+                        <h3>
+                            Web Development
+                        </h3>
+
+                        <p>
+                            HTML, CSS & JavaScript
+                        </p>
+
+
+                        <div class="progress-bar">
+
+                            <div
+                                class="progress"
+                                style="width: 75%;">
+                            </div>
+
+                        </div>
+
+
+                        <small>
+                            75% completed
+                        </small>
+
+                    </div>
+
+
+                    <button class="continue-btn">
+                        Continue
+                    </button>
+
+                </div>
+
+
+
+                <!-- Course 2 -->
+
+                <div class="course">
+
+                    <div class="course-icon">
+                        🧠
+                    </div>
+
+
+                    <div class="course-info">
+
+                        <h3>
+                            Machine Learning
+                        </h3>
+
+                        <p>
+                            Introduction to ML
+                        </p>
+
+
+                        <div class="progress-bar">
+
+                            <div
+                                class="progress"
+                                style="width: 52%;">
+                            </div>
+
+                        </div>
+
+
+                        <small>
+                            52% completed
+                        </small>
+
+                    </div>
+
+
+                    <button class="continue-btn">
+                        Continue
+                    </button>
+
+                </div>
+
+
+
+                <!-- Course 3 -->
+
+                <div class="course">
+
+                    <div class="course-icon">
+                        📊
+                    </div>
+
+
+                    <div class="course-info">
+
+                        <h3>
+                            Data Structures
+                        </h3>
+
+                        <p>
+                            Algorithms & Problem Solving
+                        </p>
+
+
+                        <div class="progress-bar">
+
+                            <div
+                                class="progress"
+                                style="width: 35%;">
+                            </div>
+
+                        </div>
+
+
+                        <small>
+                            35% completed
+                        </small>
+
+                    </div>
+
+
+                    <button class="continue-btn">
+                        Continue
+                    </button>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =========================
+                 AI ASSISTANT
+                 ========================= -->
+
+            <div class="panel ai-panel">
+
+
+                <div class="panel-header">
+
+                    <h2>
+                        🤖 AI Study Assistant
+                    </h2>
+
+                </div>
+
+
+                <p>
+                    Ask AI anything about your studies.
+                </p>
+
+
+
+                <!-- Suggestion 1 -->
+
+                <div class="ai-suggestion">
+
+                    <span>
+                        💡
+                    </span>
+
+                    <p>
+                        Explain recursion with a simple example.
+                    </p>
+
+                </div>
+
+
+
+                <!-- Suggestion 2 -->
+
+                <div class="ai-suggestion">
+
+                    <span>
+                        💡
+                    </span>
+
+                    <p>
+                        Create a 7-day study plan for exams.
+                    </p>
+
+                </div>
+
+
+
+                <!-- AI Input -->
+
+                <div class="ai-input">
+
+                    <input
+                        type="text"
+                        id="aiQuestion"
+                        placeholder="Ask your AI assistant..."
+                    >
+
+                    <button id="askAI">
+                        Ask
+                    </button>
+
+                </div>
+
+
+                <!-- AI Response -->
+
+                <div
+                    id="aiResponse"
+                    class="ai-response">
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =========================
+                 ASSIGNMENTS
+                 ========================= -->
+
+            <div class="panel assignments">
+
+
+                <div class="panel-header">
+
+                    <h2>
+                        Upcoming Assignments
+                    </h2>
+
+                    <a href="#">
+                        View All
+                    </a>
+
+                </div>
+
+
+
+                <!-- Assignment 1 -->
+
+                <div class="assignment">
+
+                    <div>
+
+                        <h3>
+                            DAA Assignment
+                        </h3>
+
+                        <p>
+                            Brute Force Algorithms
+                        </p>
+
+                    </div>
+
+
+                    <span class="due">
+                        Tomorrow
+                    </span>
+
+                </div>
+
+
+
+                <!-- Assignment 2 -->
+
+                <div class="assignment">
+
+                    <div>
+
+                        <h3>
+                            Machine Learning
+                        </h3>
+
+                        <p>
+                            Classification Model
+                        </p>
+
+                    </div>
+
+
+                    <span class="due">
+                        3 Days
+                    </span>
+
+                </div>
+
+
+
+                <!-- Assignment 3 -->
+
+                <div class="assignment">
+
+                    <div>
+
+                        <h3>
+                            Web Development
+                        </h3>
+
+                        <p>
+                            Portfolio Website
+                        </p>
+
+                    </div>
+
+
+                    <span class="due">
+                        5 Days
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =========================
+                 WEEKLY PROGRESS
+                 ========================= -->
+
+            <div class="panel weekly-progress">
+
+
+                <div class="panel-header">
+
+                    <h2>
+                        Weekly Progress
+                    </h2>
+
+                </div>
+
+
+                <div class="chart">
+
+
+                    <div
+                        class="bar"
+                        style="height: 45%;">
+
+                        <span>
+                            Mon
+                        </span>
+
+                    </div>
+
+
+
+                    <div
+                        class="bar"
+                        style="height: 70%;">
+
+                        <span>
+                            Tue
+                        </span>
+
+                    </div>
+
+
+
+                    <div
+                        class="bar"
+                        style="height: 55%;">
+
+                        <span>
+                            Wed
+                        </span>
+
+                    </div>
+
+
+
+                    <div
+                        class="bar"
+                        style="height: 85%;">
+
+                        <span>
+                            Thu
+                        </span>
+
+                    </div>
+
+
+
+                    <div
+                        class="bar"
+                        style="height: 65%;">
+
+                        <span>
+                            Fri
+                        </span>
+
+                    </div>
+
+
+
+                    <div
+                        class="bar"
+                        style="height: 90%;">
+
+                        <span>
+                            Sat
+                        </span>
+
+                    </div>
+
+
+
+                    <div
+                        class="bar"
+                        style="height: 40%;">
+
+                        <span>
+                            Sun
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
