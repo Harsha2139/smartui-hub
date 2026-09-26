@@ -109,3 +109,56 @@ nav a:hover {
 .category-card:hover {
     transform: translateY(-5px);
 }
+.templates {
+    padding: 60px 20px;
+    background-color: #fff8f2;
+    text-align: center;
+}
+
+.templates h2 {
+    font-size: 32px;
+    color: #35211b;
+    margin-bottom: 35px;
+}
+
+.template-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.template-card {
+    width: 230px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
+
+.template-card:hover {
+    transform: translateY(-5px);
+}
+
+.template-card h3 {
+    color: #54271f;
+}
+
+.template-card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.template-card button {
+    background-color: #b8860b;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.template-card button:hover {
+    background-color: #8f6908;
+}
