@@ -69,3 +69,43 @@ nav a:hover {
 .hero button:hover {
     background-color: #8f6908;
 }
+.categories {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.categories h2 {
+    font-size: 32px;
+    color: #35211b;
+    margin-bottom: 35px;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.category-card {
+    width: 220px;
+    padding: 25px;
+    background-color: #fff8f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.category-card h3 {
+    color: #54271f;
+    margin-bottom: 10px;
+}
+
+.category-card p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
