@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">&lt;Dev/&gt;</a>
+
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+        <button id="themeBtn" class="icon-btn">🌙</button>
+        <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <p class="intro">Hello, I'm</p>
+
+            <h1>Harsha<br>
+                <span>Developer</span>
+            </h1>
+
+            <p class="hero-text">
+                CSE-AIML student passionate about building modern,
+                responsive and user-friendly web applications.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn">View Projects</a>
+                <a href="#contact" class="secondary-btn">Contact Me</a>
+            </div>
+
+            <div class="social-links">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Email">Email</a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <div class="code-window">
+
+                <div class="window-bar">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <pre><code>
+const developer = {
+    name: "Harsha",
+    role: "CSE-AIML Student",
+    skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python"
+    ],
+    learning: "AI & ML"
+};
+
+developer.build();
+                </code></pre>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+
+        <div class="section-title">
+            <p>ABOUT ME</p>
+            <h2>Building with curiosity.</h2>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-card">
+                <div class="about-icon">💻</div>
+                <h3>Frontend Development</h3>
+                <p>
+                    I enjoy creating responsive and interactive
+                    websites using modern frontend technologies.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon">🤖</div>
+                <h3>AI & Machine Learning</h3>
+                <p>
+                    Exploring artificial intelligence and machine
+                    learning while strengthening my programming skills.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon">🚀</div>
+                <h3>Problem Solving</h3>
+                <p>
+                    Interested in algorithms, logical thinking and
+                    building practical solutions.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+
+        <div class="section-title">
+            <p>MY SKILLS</p>
+            <h2>Technologies I work with.</h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+                <div class="progress">
+                    <span style="width:90%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress">
+                    <span style="width:85%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress">
+                    <span style="width:80%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Python</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress">
+                    <span style="width:80%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>Git & GitHub</span>
+                    <span>75%</span>
+                </div>
+                <div class="progress">
+                    <span style="width:75%"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <span>AI / ML</span>
+                    <span>65%</span>
+                </div>
+                <div class="progress">
+                    <span style="width:65%"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+
+        <div class="section-title">
+            <p>PROJECTS</p>
+            <h2>Things I've built.</h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+
+                <div class="project-number">01</div>
+
+                <div class="project-content">
+                    <span class="project-type">WEB APPLICATION</span>
+
+                    <h3>SmartUI Hub</h3>
+
+                    <p>
+                        A reusable web UI template platform where
+                        users can discover, preview and customize
+                        responsive templates.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <button class="project-btn"
+                            onclick="showProject('SmartUI Hub')">
+                        View Details →
+                    </button>
+                </div>
+
+            </article>
+
+            <article class="project-card">
+
+                <div class="project-number">02</div>
+
+                <div class="project-content">
+                    <span class="project-type">DASHBOARD</span>
+
+                    <h3>AI StudyMate</h3>
+
+                    <p>
+                        A student dashboard interface with courses,
+                        assignments, progress tracking and an AI
+                        assistant interface.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <button class="project-btn"
+                            onclick="showProject('AI StudyMate')">
+                        View Details →
+                    </button>
+                </div>
+
+            </article>
+
+            <article class="project-card">
+
+                <div class="project-number">03</div>
+
+                <div class="project-content">
+                    <span class="project-type">E-COMMERCE</span>
+
+                    <h3>Online Store</h3>
+
+                    <p>
+                        A responsive shopping interface with products,
+                        search, categories, cart and interactive
+                        product details.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <button class="project-btn"
+                            onclick="showProject('Online Store')">
+                        View Details →
+                    </button>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+
+        <div class="contact-box">
+
+            <div>
+                <p class="contact-label">GET IN TOUCH</p>
+
+                <h2>Let's build something<br>
+                    <span>great together.</span>
+                </h2>
+
+                <p>
+                    Have a project idea or want to connect?
+                    Feel free to reach out.
+                </p>
+            </div>
+
+            <button class="primary-btn"
+                    onclick="sendEmail()">
+                Contact Me →
+            </button>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Developer Portfolio</p>
+    <p>Built with HTML, CSS & JavaScript</p>
+</footer>
+
+<div id="projectModal" class="modal">
+
+    <div class="modal-box">
+
+        <button class="close-btn" onclick="closeModal()">×</button>
+
+        <p class="modal-label">PROJECT</p>
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalDescription"></p>
+
+        <button class="primary-btn" onclick="closeModal()">
+            Close
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
